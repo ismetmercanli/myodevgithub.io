@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benim Blog Sayfam</title>
+    <link rel="stylesheet" href="styles.css"> <!-- CSS dosyanız -->
+</head>
+<body>
+
+    <!-- Navigasyon Bar -->
+    <nav>
+        <ul>
+            <li><a href="#ana-sayfa">Ana Sayfa</a></li>
+            <li><a href="#hakkimda">Hakkımda</a></li>
+            <li><a href="#hobiler">Hobilerim</a></li>
+            <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <!-- Ana Sayfa -->
+    <section id="ana-sayfa">
+        <h1>Merhaba,Ben İsmet Mercanlı</h1>
+        <p>Ben bir Bilgisayar Mühendisliği öğrencisiyim. Teknoloji ve spor ile ilgileniyorum.</p>
+        <img src="Screenshot 2024-10-04 120103.png" alt="Profil Resmi" width="200">
+    </section>
+
+    <!-- Hakkımda -->
+    <section id="hakkimda">
+        <h2>Hakkımda</h2>
+        <p>Benim hakkımda daha fazla bilgi:</p>
+        <ul>
+            <li>Eğitim: Süleyman Demirel Üniversitesi, Bilgisayar Mühendisliği Bölümü 3. Sınıf öğrencisiyim </li>
+            <li>Deneyimler: Şu anda herhangi bir deneyimim yok.</li>
+            <li>Hedefler: Yapay Zeka Geliştiricisi olmak.</li>
+            <li>Beceriler: Python, analitik zeka</li>
+        </ul>
+    </section>
+
+    <!-- Hobilerim -->
+    <section id="hobiler">
+        <h2>Hobilerim</h2>
+        <div class="hobi">
+            <h3>İlk Hobim: Bursaspor</h3>
+            <p>Bursaspor bir hobiden fazlasıdır benim için,bir tutkudur</p>
+            <a href="https://www.google.com/search?q=bursaspor">Detaylar</a>
+            <video width="600" controls>
+                <source src="Yok Bu Sevdanın Rotası - BURSASPOR.mp4" type="video/mp4">
+            </video>
+        </div> 
+        <div class="hobi">
+            <h3>İkinci Hobim: Spor</h3>
+            <p>Spor yapmayı çok severim</p>
+            <a href="https://www.macfit.com/blog/fitness/fitness-nedir">Detaylar</a>
+        </div>
+    </section>
+
+    <!-- İletişim -->
+    <section id="iletisim">
+        <h2>İletişim</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">İsim:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mesaj:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Gönder</button>
+        </form>
+        <h3>Sosyal Medya</h3>
+        <p>
+            <a href="https://www.linkedin.com/in/ismet-mercanl%C4%B1-a97325256/">LinkedIn</a> |
+            <a href="https://www.instagram.com/ismetmercanli147/">Instagram</a> |
+            <a href="https://x.com/ismet_mercanl">Twitter</a>
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 İsmet. Tüm hakları saklıdır. | İletişim: 05541752616 no:2221032025</p>
+    </footer>
+
+</body>
+</html>
